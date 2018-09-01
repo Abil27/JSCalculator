@@ -5,39 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Abil Calculator</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <div class="container">
     <div class="calculator">
       <div class="display-area">
-        <div class="display">
-
-        </div>
+        <div id="output" class="display">2789</div>
       </div>
       <div class="button-area">
-        <button type="button" name="button">AC</button>
-        <button type="button" name="button">+/-</button>
-        <button type="button" name="button">%</button>
-        <button type="button" name="button">7</button>
-        <button type="button" name="button">8</button>
-        <button type="button" name="button">9</button>
-        <button type="button" name="button">x</button>
-        <button type="button" name="button">4</button>
-        <button type="button" name="button">5</button>
-        <button type="button" name="button">6</button>
-        <button type="button" name="button">-</button>
-        <button type="button" name="button">1</button>
-        <button type="button" name="button">2</button>
-        <button type="button" name="button">3</button>
-        <button type="button" name="button">+</button>
-        <button type="button" name="button">-</button>
-        <button type="button" name="button">0</button>
-        <button type="button" name="button">.</button>
-        <button type="button" name="button">=</button>
+        <button type="button" id="btn-clear" class="btn-lightgray" name="clear">AC</button>
+        <button type="button" id="btn-opposite" class="btn-lightgray" name="opposite">+/-</button>
+        <button type="button" id="btn-percent" class="btn-lightgray" name="percent">%</button>
+        <button type="button" class="btn-orange" name="divide">÷</button> <br>
+        <button type="button" class="btn-darkgray" name="seven">7</button>
+        <button type="button" class="btn-darkgray" name="eight">8</button>
+        <button type="button" class="btn-darkgray" name="nine">9</button>
+        <button type="button" class="btn-orange" name="multiply">x</button> <br>
+        <button type="button" class="btn-darkgray" name="four">4</button>
+        <button type="button" class="btn-darkgray" name="five">5</button>
+        <button type="button" class="btn-darkgray" name="six">6</button>
+        <button type="button" class="btn-orange" name="substract">-</button> <br>
+        <button type="button" class="btn-darkgray" name="one">1</button>
+        <button type="button" class="btn-darkgray" name="two">2</button>
+        <button type="button" class="btn-darkgray" name="three">3</button>
+        <button type="button" class="btn-orange" name="add">+</button> <br>
+        <button type="button" id="btn-zero" class="btn-darkgray btn-wide" name="zero">0</button>
+        <button type="button" class="btn-darkgray" name="decimal">.</button>
+        <button type="button" class="btn-orange" name="equal">=</button>
 
       </div>
     </div>
   </div>
-
+  <script type="text/javascript" src="/js/script.js"></script>
 </body>
 </html>
