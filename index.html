@@ -1,42 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Abil Calculator</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <div class="container">
-    <div class="calculator">
-      <div class="display-area">
-        <div id="output" class="display calculator__display">0</div>
-      </div>
-      <div class="button-area calculator__keys">
-        <button type="button" id="btn-clear" class="btn-lightgray key--operator" name="clear" data-action="clear">AC</button>
-        <button type="button" id="btn-opposite" class="btn-lightgray" name="opposite">+/-</button>
-        <button type="button" id="btn-percent" class="btn-lightgray" name="percent">%</button>
-        <button type="button" id="btn-divide" class="btn-orange key--operator" name="divide" data-action="divide">÷</button> <br>
-        <button type="button" id="btn-seven" class="btn-darkgray" name="seven">7</button>
-        <button type="button" id="btn-eight" class="btn-darkgray" name="eight">8</button>
-        <button type="button" id="btn-nine" class="btn-darkgray" name="nine">9</button>
-        <button type="button" id="btn-multiply" class="btn-orange key--operator" name="multiply" data-action="multiply">x</button> <br>
-        <button type="button" id="btn-four" class="btn-darkgray" name="four">4</button>
-        <button type="button" id="btn-five" class="btn-darkgray" name="five">5</button>
-        <button type="button" id="btn-six" class="btn-darkgray" name="six">6</button>
-        <button type="button" id="btn-substract" class="btn-orange key--operator" name="substract" data-action="substract">-</button> <br>
-        <button type="button" id="btn-one" class="btn-darkgray" name="one">1</button>
-        <button type="button" id="btn-two" class="btn-darkgray" name="two">2</button>
-        <button type="button" id="btn-three" class="btn-darkgray" name="three">3</button>
-        <button type="button" id="btn-add" class="btn-orange key--operator" name="add" data-action="add">+</button> <br>
-        <button type="button" id="btn-zero" class="btn-darkgray btn-wide" name="zero">0</button>
-        <button type="button" id="btn-decimal" class="btn-darkgray key--operator" name="decimal" data-action="decimal">.</button>
-        <button type="button" id="btn-equal" class="btn-orange key--operator" name="equal" data-action="calculate">=</button>
+  <title>JavaScript Calculator, v2</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
 
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript" src="js/script.js"></script>
+  
+</head>
+
+<body>
+
+  <div class="container">
+
+  <span class="item item-header" id="currentValue">0</span>
+
+  <button class="btn silver clear">AC</button>
+  <button class="btn silver negative">+/-</button>
+  <button class="btn orange silver">%</button>
+  <button class="btn orange">÷</button>
+
+  <button class="btn num">7</button>
+  <button class="btn num">8</button>
+  <button class="btn num">9</button>
+  <button class="btn orange">x</button>
+
+  <button class="btn num">4</button>
+  <button class="btn num">5</button>
+  <button class="btn num">6</button>
+  <button class="btn orange subtract">-</button>
+
+  <button class="btn num">1</button>
+  <button class="btn num">2</button>
+  <button class="btn num">3</button>
+  <button class="btn orange add">+</button>
+
+  <button class="btn num zero">0</button>
+  <button class="btn num">.</button>
+  <button class="btn equals">=</button>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
 </body>
+
 </html>
